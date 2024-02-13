@@ -22,8 +22,7 @@ describe('Page start', () => {
     const button = await container.$('.widget-button');
 
     await button.click();
-
-await container.waitForSelector('.popover-widget');
+    await container.waitForSelector('.popover-widget');
 
   });
 
