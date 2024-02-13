@@ -11,7 +11,7 @@
     "test": "jest --testPathPattern=./src/",
     "e2e": "jest --testPathPattern=./e2e/ --runInBand",
     "coverage": "jest --coverage",
-    "preshow:coverage": "npm run coverage",
+    "preshow:coverage": "npm run coverage --passWithNoTests",
     "show:coverage": "live-server coverage/lcov-report",
     "preshow:dist": "npm run build",
     "show:dist": "live-server dist"
